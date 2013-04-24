@@ -91,6 +91,12 @@
 
 
 			});
+		},
+		showLinkHref:function(){
+			
+		       return this.filter("a").each(function(){
+                            $(this).append("("+$(this)+")");
+                        });	
 		}
 
 	});
