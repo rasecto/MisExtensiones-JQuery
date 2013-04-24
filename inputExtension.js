@@ -14,7 +14,7 @@
 
 			addClasses: function($seleccion, classes) {
                  
-                 /* restriccion a argumento cadena */
+                                /* restriccion a argumento cadena */
                  
 				classes = ( $.type(classes) != "string") ? "":classes;
 
@@ -86,12 +86,6 @@
 					_utility.removeClasses($input, focus_class);
 					_utility.addClasses($input, blur_class);
 
-					/*  
-                    
-					$input.hasClass(focus_class) && $input.removeClass(focus_class);
-
-					$input.addClass(blur_class);
-                    */
 
 				}
 
